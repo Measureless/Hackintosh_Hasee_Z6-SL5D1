@@ -1,6 +1,6 @@
 # Hackintosh CLOVER for Hasee Z6-SL5 D1
 
-[中文版](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1/blob/master/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.md)
+## [中文版](https://github.com/Measureless/Hackintosh_Hasee_Z6-SL5D1/blob/master/%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E.md)
 
 ## About this project
 - The original project comes from [TioaTyan/Hackintosh_Hasee_Z6-SL7D1](https://github.com/TioaTyan/Hackintosh_Hasee_Z6-SL7D1).
