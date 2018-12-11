@@ -142,7 +142,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v cpus=1 xpcm-free dart=0 kext-dev-mode=1</string>
+		<string>-v arch=X86_X64 xpcm-free dart=0 kext-dev-mode=1 darkwake</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
