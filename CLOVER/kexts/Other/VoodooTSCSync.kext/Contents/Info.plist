@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <!---Kext modified with VooDooTSCSync Cofigurator © 2017 Pietro Caruso-->
-<!---Config created for cpu: Intel Socket 1366 i7 HT (4 cores) (8 threads)-->
+<!---file created for generic cpu with 4 logical cores-->
 <!---Note that you should edit the IOCPUNumber value to modify the core count for VoodooTSCSync, just remember that it must be equal to the thread count of the cpu you will use - 1-->
 <dict>
 	<key>BuildMachineOSBuild</key>
@@ -52,7 +52,7 @@
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>IOCPUNumber</key>
-                               <integer>7</integer>
+                               <integer>3</integer>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>AppleACPICPU</string>

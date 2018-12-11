@@ -142,7 +142,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v keepsysms=1 arch=X86_64 xpcm-free dart=0 kext-dev-mode=1 darkwake</string>
+		<string>-v arch=X86_64 -xcpm dart=0 npci=0x3000 rootless=0 kext-dev-mode=1 darkwake nv_disable=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -341,12 +341,10 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>ig-platform-id</key>
-		<string>0x191b0000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -544,7 +542,7 @@
 		<key>InjectSystemID</key>
 		<true/>
 		<key>NvidiaWeb</key>
-		<true>
+		<true/>
 	</dict>
 </dict>
 </plist>
