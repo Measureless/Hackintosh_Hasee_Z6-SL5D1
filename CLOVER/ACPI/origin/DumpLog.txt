@@ -1,0 +1,120 @@
+12:519  4:158  Found UEFI Acpi 2.0 RSDP at 62E47000
+12:519  0:000  Saving ACPI tables from RSDP 62E47000 to EFI\CLOVER\ACPI\origin ...
+12:519  0:000   62E47000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+13:099  0:579    (Xsdt: 62E470A8, Rsdt: 62E47028)
+13:099  0:000    62E470A8: 'XSDT', '', Rev: 1, Len: 204 -> XSDT.aml
+13:199  0:100    62E47028: 'RSDT', '', Rev: 1, Len: 120 -> RSDT.aml
+13:302  0:103    Tables in Xsdt: 21
+13:302  0:000    0. 62E60980: 'FACP', '', Rev: 5, Len: 268 -> FACP.aml
+13:403  0:100        (Dsdt: 62E47200, Facs: 67B97F80, XDsdt: 62E47200, XFacs: 0)
+13:403  0:000        62E47200: 'DSDT', '', Rev: 2, Len: 104320 -> DSDT.aml
+13:511  0:108        67B97F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+13:610  0:099    1. 62E60A90: 'APIC', '', Rev: 3, Len: 132 -> APIC.aml
+13:711  0:100    2. 62E60B18: 'FPDT', '', Rev: 1, Len: 68 -> FPDT.aml
+13:811  0:099    3. 62E60B60: 'FIDT', '', Rev: 1, Len: 156 -> FIDT.aml
+13:911  0:099    4. 62E60C00: 'SLIC', '', Rev: 1, Len: 374 -> SLIC.aml
+14:005  0:094    5. 62E60D78: 'MCFG', '', Rev: 1, Len: 60 -> MCFG.aml
+14:099  0:093    6. 62E60DB8: 'HPET', '', Rev: 1, Len: 56 -> HPET.aml
+14:194  0:094    7. 62E60DF0: 'SSDT', '', Rev: 1, Len: 789 -> SSDT-0.aml
+14:289  0:095    8. 62E61108: 'SSDT', '', Rev: 1, Len: 4352 -> SSDT-1.aml
+14:384  0:094    9. 62E62208: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+14:478  0:094    10. 62E62240: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+14:573  0:095    11. 62E62298: 'MSDM', '', Rev: 3, Len: 85 -> MSDM.aml
+14:668  0:095    12. 62E622F0: 'SSDT', '', Rev: 2, Len: 22759 -> SSDT-2.aml
+14:772  0:103    13. 62E67BD8: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+14:867  0:094    14. 62E67C20: 'SSDT', '', Rev: 2, Len: 3672 -> SSDT-3.aml (Found hidden SSDT 7 pcs)
+14:970  0:102        * 66C01618: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1401  53 53 44 54 79 05 00 00 02 48 50 6D 52 65 66 00 Internal length = 1401 -> SSDT-x3_0-Cpu0Ist.aml
+15:070  0:100        * 66C01018: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x3_1-ApIst.aml
+15:935  0:864        * 66C01C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x3_2-Cpu0Cst.aml
+16:034  0:099        * 67107C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_3-ApCst.aml
+16:134  0:100        * 65846B18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x3_4-Cpu0Hwp.aml
+16:234  0:099        * 6584D618: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x3_5-ApHwp.aml
+16:334  0:099        * 6584D498: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x3_6-HwpLvt.aml
+16:453  0:119  
+16:453  0:000    15. 62E68A78: 'SSDT', '', Rev: 2, Len: 159 -> SSDT-4.aml
+16:547  0:094    16. 62E68B18: 'DMAR', '', Rev: 1, Len: 168 -> DMAR.aml
+16:641  0:094    17. 62E68BC0: 'BGRT', '', Rev: 1, Len: 56 -> BGRT.aml
+16:735  0:093    18. 62E68BF8: 'TPM2', '', Rev: 3, Len: 52 -> TPM2.aml
+16:829  0:093    19. 62E68C30: 'SSDT', '', Rev: 1, Len: 8984 -> SSDT-5.aml
+16:923  0:094    20. 62E6AF48: 'ASF!', '', Rev: 32, Len: 165 -> ASF!.aml
+17:017  0:094    Tables in Rsdt: 21
+17:017  0:000    0. 62E47178: 'FACP', '', Rev: 2, Len: 132 -> RSDT-FACP.aml
+17:116  0:098        (Dsdt: 62E47200, Facs: 67B97F40)
+17:116  0:000        62E47200: 'DSDT', '', Rev: 2, Len: 104320
+17:118  0:001        67B97F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+17:216  0:098    1. 62E60A90: 'APIC', '', Rev: 3, Len: 132
+17:216  0:000    2. 62E60B18: 'FPDT', '', Rev: 1, Len: 68
+17:216  0:000    3. 62E60B60: 'FIDT', '', Rev: 1, Len: 156
+17:216  0:000    4. 62E60C00: 'SLIC', '', Rev: 1, Len: 374
+17:216  0:000    5. 62E60D78: 'MCFG', '', Rev: 1, Len: 60
+17:216  0:000    6. 62E60DB8: 'HPET', '', Rev: 1, Len: 56
+17:216  0:000    7. 62E60DF0: 'SSDT', '', Rev: 1, Len: 789
+17:216  0:000    8. 62E61108: 'SSDT', '', Rev: 1, Len: 4352
+17:216  0:000    9. 62E62208: 'DBGP', '', Rev: 1, Len: 52
+17:216  0:000    10. 62E62240: 'DBG2', '', Rev: 0, Len: 84
+17:216  0:000    11. 62E62298: 'MSDM', '', Rev: 3, Len: 85
+17:216  0:000    12. 62E622F0: 'SSDT', '', Rev: 2, Len: 22759
+17:216  0:000    13. 62E67BD8: 'UEFI', '', Rev: 1, Len: 66
+17:216  0:000    14. 62E67C20: 'SSDT', '', Rev: 2, Len: 3672
+17:216  0:000    15. 62E68A78: 'SSDT', '', Rev: 2, Len: 159
+17:216  0:000    16. 62E68B18: 'DMAR', '', Rev: 1, Len: 168
+17:216  0:000    17. 62E68BC0: 'BGRT', '', Rev: 1, Len: 56
+17:216  0:000    18. 62E68BF8: 'TPM2', '', Rev: 3, Len: 52
+17:216  0:000    19. 62E68C30: 'SSDT', '', Rev: 1, Len: 8984
+17:216  0:000    20. 62E6AF48: 'ASF!', '', Rev: 32, Len: 165
+17:216  0:000  Found UEFI Acpi 1.0 RSDP at 62E47000
+17:216  0:000  Printing ACPI tables from RSDP 62E47000 ...
+17:216  0:000   62E47000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:216  0:000    (Xsdt: 62E470A8, Rsdt: 62E47028)
+17:216  0:000    62E470A8: 'XSDT', '', Rev: 1, Len: 204
+17:216  0:000    62E47028: 'RSDT', '', Rev: 1, Len: 120
+17:216  0:000    Tables in Xsdt: 21
+17:216  0:000    0. 62E60980: 'FACP', '', Rev: 5, Len: 268
+17:216  0:000        (Dsdt: 62E47200, Facs: 67B97F80, XDsdt: 62E47200, XFacs: 0)
+17:216  0:000        62E47200: 'DSDT', '', Rev: 2, Len: 104320
+17:218  0:001        67B97F80: 'FACS', Ver: 2, Len: 64
+17:218  0:000    1. 62E60A90: 'APIC', '', Rev: 3, Len: 132
+17:218  0:000    2. 62E60B18: 'FPDT', '', Rev: 1, Len: 68
+17:218  0:000    3. 62E60B60: 'FIDT', '', Rev: 1, Len: 156
+17:218  0:000    4. 62E60C00: 'SLIC', '', Rev: 1, Len: 374
+17:218  0:000    5. 62E60D78: 'MCFG', '', Rev: 1, Len: 60
+17:218  0:000    6. 62E60DB8: 'HPET', '', Rev: 1, Len: 56
+17:218  0:000    7. 62E60DF0: 'SSDT', '', Rev: 1, Len: 789
+17:218  0:000    8. 62E61108: 'SSDT', '', Rev: 1, Len: 4352
+17:218  0:000    9. 62E62208: 'DBGP', '', Rev: 1, Len: 52
+17:218  0:000    10. 62E62240: 'DBG2', '', Rev: 0, Len: 84
+17:218  0:000    11. 62E62298: 'MSDM', '', Rev: 3, Len: 85
+17:218  0:000    12. 62E622F0: 'SSDT', '', Rev: 2, Len: 22759
+17:218  0:000    13. 62E67BD8: 'UEFI', '', Rev: 1, Len: 66
+17:218  0:000    14. 62E67C20: 'SSDT', '', Rev: 2, Len: 3672
+17:218  0:000    15. 62E68A78: 'SSDT', '', Rev: 2, Len: 159
+17:218  0:000    16. 62E68B18: 'DMAR', '', Rev: 1, Len: 168
+17:218  0:000    17. 62E68BC0: 'BGRT', '', Rev: 1, Len: 56
+17:218  0:000    18. 62E68BF8: 'TPM2', '', Rev: 3, Len: 52
+17:218  0:000    19. 62E68C30: 'SSDT', '', Rev: 1, Len: 8984
+17:218  0:000    20. 62E6AF48: 'ASF!', '', Rev: 32, Len: 165
+17:218  0:000    Tables in Rsdt: 21
+17:218  0:000    0. 62E47178: 'FACP', '', Rev: 2, Len: 132
+17:218  0:000        (Dsdt: 62E47200, Facs: 67B97F40)
+17:218  0:000        62E47200: 'DSDT', '', Rev: 2, Len: 104320
+17:220  0:001        67B97F40: 'FACS', Ver: 0, Len: 64
+17:220  0:000    1. 62E60A90: 'APIC', '', Rev: 3, Len: 132
+17:220  0:000    2. 62E60B18: 'FPDT', '', Rev: 1, Len: 68
+17:220  0:000    3. 62E60B60: 'FIDT', '', Rev: 1, Len: 156
+17:220  0:000    4. 62E60C00: 'SLIC', '', Rev: 1, Len: 374
+17:220  0:000    5. 62E60D78: 'MCFG', '', Rev: 1, Len: 60
+17:220  0:000    6. 62E60DB8: 'HPET', '', Rev: 1, Len: 56
+17:220  0:000    7. 62E60DF0: 'SSDT', '', Rev: 1, Len: 789
+17:220  0:000    8. 62E61108: 'SSDT', '', Rev: 1, Len: 4352
+17:220  0:000    9. 62E62208: 'DBGP', '', Rev: 1, Len: 52
+17:220  0:000    10. 62E62240: 'DBG2', '', Rev: 0, Len: 84
+17:220  0:000    11. 62E62298: 'MSDM', '', Rev: 3, Len: 85
+17:220  0:000    12. 62E622F0: 'SSDT', '', Rev: 2, Len: 22759
+17:220  0:000    13. 62E67BD8: 'UEFI', '', Rev: 1, Len: 66
+17:220  0:000    14. 62E67C20: 'SSDT', '', Rev: 2, Len: 3672
+17:220  0:000    15. 62E68A78: 'SSDT', '', Rev: 2, Len: 159
+17:220  0:000    16. 62E68B18: 'DMAR', '', Rev: 1, Len: 168
+17:220  0:000    17. 62E68BC0: 'BGRT', '', Rev: 1, Len: 56
+17:220  0:000    18. 62E68BF8: 'TPM2', '', Rev: 3, Len: 52
+17:220  0:000    19. 62E68C30: 'SSDT', '', Rev: 1, Len: 8984
+17:220  0:000    20. 62E6AF48: 'ASF!', '', Rev: 32, Len: 165

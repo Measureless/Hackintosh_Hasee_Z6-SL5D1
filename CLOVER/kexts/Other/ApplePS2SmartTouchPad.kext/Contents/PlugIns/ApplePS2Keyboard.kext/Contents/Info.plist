@@ -45,11 +45,11 @@
 			<key>Extended Functions</key>
 			<dict>
 				<key>F13</key>
-				<string>SHIFT CMD 4</string>
+				<string>ALT CMD ESC</string>
 				<key>F14</key>
-				<string>CTRL SHIFT CMD 4</string>
+				<string></string>
 				<key>F15</key>
-				<string>CMD Q</string>
+				<string></string>
 				<key>F16</key>
 				<string>ALT CMD D</string>
 				<key>F17</key>
@@ -72,37 +72,35 @@
 			<key>Fn Keys Mode 1</key>
 			<dict>
 				<key>BrightnessDown</key>
-				<string>F8</string>
+				<string>F1</string>
 				<key>BrightnessUp</key>
-				<string>F9</string>
-				<key>Dashboard</key>
-				<string>F12</string>
+				<string>F2</string>
 				<key>KBBacklightDown</key>
-				<string>F4</string>
+				<string>F3</string>
 				<key>KBBacklightUp</key>
-				<string>F10</string>
+				<string>F4</string>
 				<key>Launchpad</key>
 				<string>F4</string>
 				<key>MediaNext</key>
-				<string>ArrowRight</string>
+				<string>F9</string>
 				<key>MediaPlayPause</key>
-				<string>ArrowDown</string>
+				<string>F8</string>
 				<key>MediaPrevious</key>
-				<string>ArrowLeft</string>
-				<key>Misson Control</key>
-				<string>F11</string>
-				<key>SleepDisplay</key>
-				<string>F2</string>
-				<key>Touchpad</key>
-				<string>F1</string>
-				<key>VideoMirror</key>
 				<string>F7</string>
-				<key>VolumeDown</key>
-				<string>F5</string>
-				<key>VolumeMute</key>
+				<key>Misson Control</key>
 				<string>F3</string>
-				<key>VolumeUp</key>
+				<key>SleepDisplay</key>
+				<string>F5</string>
+				<key>Touchpad</key>
+				<string>Pause</string>
+				<key>VideoMirror</key>
 				<string>F6</string>
+				<key>VolumeDown</key>
+				<string>F11</string>
+				<key>VolumeMute</key>
+				<string>F10</string>
+				<key>VolumeUp</key>
+				<string>F12</string>
 			</dict>
 			<key>Fn Keys Mode 2</key>
 			<dict>
@@ -142,7 +140,7 @@
 			<key>Fn keys Layout</key>
 			<string>NONE</string>
 			<key>Fn keys Mode</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>IOClass</key>
 			<string>ApplePS2Keyboard</string>
 			<key>IOProviderClass</key>
@@ -158,9 +156,9 @@
 				<key>Enable Sierra Caps Lock Fix</key>
 				<true/>
 				<key>FinerFnBrightnessControl</key>
-				<true/>
+				<false/>
 				<key>FinerFnVolumeControl</key>
-				<true/>
+				<false/>
 				<key>Make Caps Lock into key</key>
 				<integer>0</integer>
 				<key>Make ISO keypad key . to ,</key>
@@ -180,7 +178,7 @@
 				<key>Num Lock enabled at boot</key>
 				<false/>
 				<key>Swap alt and windows key</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>ProductID</key>
 			<integer>782</integer>
