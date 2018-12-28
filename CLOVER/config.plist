@@ -115,7 +115,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v cpus=1</string>
+		<string>dart=0 -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>Default Loader</key>
@@ -207,7 +207,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>Simple</string>
+		<string>imac.hk</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
