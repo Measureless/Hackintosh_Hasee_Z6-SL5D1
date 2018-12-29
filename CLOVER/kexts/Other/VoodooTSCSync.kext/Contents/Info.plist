@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<!---Kext modified with VooDooTSCSync Cofigurator © 2017 Pietro Caruso-->
-<!---file created for generic cpu with 4 logical cores-->
-<!---Note that you should edit the IOCPUNumber value to modify the core count for VoodooTSCSync, just remember that it must be equal to the thread count of the cpu you will use - 1-->
 <dict>
 	<key>BuildMachineOSBuild</key>
 	<string>11D50</string>
@@ -24,6 +21,8 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CFBundleShortVersionString</key>
 	<string>1.1</string>
 	<key>DTCompiler</key>
 	<string></string>
@@ -52,7 +51,7 @@
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>IOCPUNumber</key>
-                               <integer>3</integer>
+				<integer>7</integer>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>AppleACPICPU</string>
