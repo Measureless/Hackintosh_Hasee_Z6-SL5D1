@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15B42</string>
+	<string>16E195</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>CodecCommander</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.5.0, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
+	<string>2.6.3, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.tw.CodecCommander</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.5.0</string>
+	<string>2.6.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,11 +27,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.5.0</string>
+	<string>2.6.3</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7B1005</string>
+	<string>8E2002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -39,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0711</string>
+	<string>0832</string>
 	<key>DTXcodeBuild</key>
-	<string>7B1005</string>
+	<string>8E2002</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>CodecCommander</key>
@@ -57,6 +57,8 @@
 				<key>10ec_0233</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0235</key>
+				<string>Realtek ALC283,etc</string>
+				<key>10ec_0236</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0255</key>
 				<string>Realtek ALC283,etc</string>
@@ -268,7 +270,21 @@
 							<key>Comment</key>
 							<string>Node 0x1a - Pin Control (In Enable / VRefEn)</string>
 							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
 							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<data>
+							AVcIgw==
+							</data>
+							<key>Comment</key>
+							<string>0x15 SET_UNSOLICITED_ENABLE 0x83</string>
+							<key>On Init</key>
+							<true/>
 							<key>On Sleep</key>
 							<false/>
 							<key>On Wake</key>
@@ -331,7 +347,7 @@
 			<key>IOUserClientClass</key>
 			<string>CodecCommanderClient</string>
 		</dict>
-		<key>CodecCommander PowerHook</key>
+		<key>CodecCommanderPowerHook</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.tw.CodecCommander</string>
@@ -356,7 +372,37 @@
 			<key>IOProviderClass</key>
 			<string>AppleHDADriver</string>
 		</dict>
-		<key>CodecCommander VoodooHDA</key>
+		<key>CodecCommanderProbeInit</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>Codec Profile</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array/>
+				</dict>
+			</dict>
+			<key>IOClass</key>
+			<string>CodecCommanderProbeInit</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>IOHDACodecDevice</string>
+		</dict>
+		<key>CodecCommanderResidency</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.tw.CodecCommander</string>
+			<key>IOClass</key>
+			<string>CodecCommanderResidency</string>
+			<key>IOMatchCategory</key>
+			<string>CodecCommanderResidency</string>
+			<key>IOProviderClass</key>
+			<string>IOResources</string>
+		</dict>
+		<key>CodecCommanderVoodooHDA</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.tw.CodecCommander</string>
@@ -372,47 +418,16 @@
 				<dict>
 					<key>Check Infinitely</key>
 					<false/>
-					<key>Check Interval</key>
-					<integer>3000</integer>
-					<key>Custom Commands</key>
-					<array>
-						<dict>
-							<key>Command</key>
-							<integer>33882119</integer>
-							<key>Comment</key>
-							<string>SET_COEF_INDEX</string>
-							<key>On Init</key>
-							<true/>
-							<key>On Sleep</key>
-							<true/>
-							<key>On Wake</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>Command</key>
-							<integer>33848496</integer>
-							<key>Comment</key>
-							<string>SET_PROC_COEF</string>
-							<key>On Init</key>
-							<true/>
-							<key>On Sleep</key>
-							<false/>
-							<key>On Wake</key>
-							<true/>
-						</dict>
-					</array>
 					<key>Perform Reset</key>
-					<true/>
+					<false/>
 					<key>Perform Reset on EAPD Fail</key>
 					<false/>
 					<key>Perform Reset on External Wake</key>
-					<true/>
-					<key>Send Delay</key>
-					<integer>300</integer>
+					<false/>
 					<key>Sleep Nodes</key>
-					<true/>
+					<false/>
 					<key>Update Nodes</key>
-					<true/>
+					<false/>
 				</dict>
 				<key>Disabled HDMI</key>
 				<dict>
@@ -434,17 +449,6 @@
 			<string>VoodooHDADevice</string>
 			<key>IOUserClientClass</key>
 			<string>CodecCommanderClient</string>
-		</dict>
-		<key>CodecCommanderResidency</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.tw.CodecCommander</string>
-			<key>IOClass</key>
-			<string>CodecCommanderResidency</string>
-			<key>IOMatchCategory</key>
-			<string>CodecCommanderResidency</string>
-			<key>IOProviderClass</key>
-			<string>IOResources</string>
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>

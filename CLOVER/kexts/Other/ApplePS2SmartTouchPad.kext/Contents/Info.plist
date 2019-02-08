@@ -1370,9 +1370,9 @@
 					<key>1FingerTapAction</key>
 					<integer>35</integer>
 					<key>2FingersTapAction</key>
-					<integer>33</integer>
-					<key>3FingersTapAction</key>
 					<integer>34</integer>
+					<key>3FingersTapAction</key>
+					<integer>33</integer>
 					<key>4FingersTapAction</key>
 					<integer>4</integer>
 					<key>5FingersTapAction</key>

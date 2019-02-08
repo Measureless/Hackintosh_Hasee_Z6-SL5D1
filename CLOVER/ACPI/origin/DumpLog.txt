@@ -1,0 +1,155 @@
+8:939  6:271  Found UEFI Acpi 2.0 RSDP at 6736A000
+8:939  0:000  Saving ACPI tables from RSDP 6736A000 to EFI\CLOVER\ACPI\origin ...
+8:939  0:000   6736A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.amlnot written Success
+9:653  0:713  
+9:653  0:000    (Xsdt: 6736A0A8, Rsdt: 6736A028)
+9:653  0:000    6736A0A8: 'XSDT', 'A M I', Rev: 1, Len: 204 -> XSDT.amlnot written Success
+9:745  0:092  
+9:745  0:000    6736A028: 'RSDT', 'A M I', Rev: 1, Len: 120 -> RSDT.amlnot written Success
+9:837  0:092  
+9:837  0:000    Tables in Xsdt: 21
+9:837  0:000    0. 67383888: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.amlnot written Success
+9:930  0:092  
+9:930  0:000        (Dsdt: 6736A200, Facs: 67B97F80, XDsdt: 6736A200, XFacs: 0)
+9:930  0:000        6736A200: 'DSDT', 'A M I', Rev: 2, Len: 104071 -> DSDT.amlnot written Success
+10:080  0:150  
+10:082  0:001        67B97F80: 'FACS', Ver: 2, Len: 64 -> FACS.amlnot written Success
+10:180  0:098  
+10:180  0:000    1. 67383998: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.amlnot written Success
+10:272  0:091  
+10:272  0:000    2. 67383A20: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.amlnot written Success
+10:364  0:092  
+10:364  0:000    3. 67383A68: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.amlnot written Success
+10:456  0:092  
+10:456  0:000    4. 67383B08: 'SLIC', 'A M I', Rev: 1, Len: 374 -> SLIC.amlnot written Success
+10:548  0:091  
+10:548  0:000    5. 67383C80: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.amlnot written Success
+10:640  0:092  
+10:640  0:000    6. 67383CC0: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.amlnot written Success
+10:732  0:091  
+10:732  0:000    7. 67383CF8: 'SSDT', 'A M I', Rev: 1, Len: 789 -> SSDT-0-A M I.amlnot written Success
+11:335  0:602  
+11:335  0:000    8. 67384010: 'SSDT', 'A M I', Rev: 1, Len: 4352 -> SSDT-1-A M I.amlnot written Success
+11:436  0:100  
+11:436  0:000    9. 67385110: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.amlnot written Success
+11:536  0:100  
+11:536  0:000    10. 67385148: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.amlnot written Success
+11:637  0:100  
+11:637  0:000    11. 673851A0: 'MSDM', 'A M I', Rev: 3, Len: 85 -> MSDM.amlnot written Success
+12:044  0:406  
+12:044  0:000    12. 673851F8: 'SSDT', 'A M I', Rev: 2, Len: 22759 -> SSDT-2-A M I.amlnot written Success
+12:145  0:101  
+12:145  0:000    13. 6738AAE0: 'UEFI', 'A M I', Rev: 1, Len: 66 -> UEFI.amlnot written Success
+12:245  0:100  
+12:245  0:000    14. 6738AB28: 'SSDT', 'A M I', Rev: 2, Len: 3672 -> SSDT-3-A M I.amlnot written Success
+12:501  0:255   (Found hidden SSDT 7 pcs)
+12:501  0:000        * 66BF9618: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1401  53 53 44 54 79 05 00 00 02 48 50 6D 52 65 66 00 Internal length = 1401not written Success
+12:628  0:127   -> SSDT-x3_0-Cpu0Ist.aml
+12:628  0:000        * 66BF9018: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450not written Success
+12:730  0:101   -> SSDT-x3_1-ApIst.aml
+12:730  0:000        * 66BF9C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895not written Success
+12:830  0:100   -> SSDT-x3_2-Cpu0Cst.aml
+12:830  0:000        * 670FFC18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281not written Success
+12:931  0:100   -> SSDT-x3_3-ApCst.aml
+12:931  0:000        * 65848118: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142not written Success
+13:032  0:100   -> SSDT-x3_4-Cpu0Hwp.aml
+13:032  0:000        * 6584A798: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281not written Success
+13:596  0:564   -> SSDT-x3_5-ApHwp.aml
+13:596  0:000        * 6584A618: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304not written Success
+13:724  0:127   -> SSDT-x3_6-HwpLvt.aml
+13:724  0:000  
+13:724  0:000    15. 6738B980: 'SSDT', 'A M I', Rev: 2, Len: 159 -> SSDT-4-A M I.amlnot written Success
+13:824  0:100  
+13:824  0:000    16. 6738BA20: 'DMAR', 'A M I', Rev: 1, Len: 168 -> DMAR.amlnot written Success
+13:924  0:100  
+13:924  0:000    17. 6738BAC8: 'TPM2', 'A M I', Rev: 3, Len: 52 -> TPM2.amlnot written Success
+14:178  0:253  
+14:178  0:000    18. 6738BB00: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.amlnot written Success
+14:278  0:100  
+14:278  0:000    19. 6738BB38: 'SSDT', 'A M I', Rev: 1, Len: 8984 -> SSDT-5-A M I.amlnot written Success
+14:378  0:099  
+14:378  0:000    20. 6738DE50: 'ASF!', 'A M I', Rev: 32, Len: 165 -> ASF!.amlnot written Success
+14:633  0:254  
+14:633  0:000    Tables in Rsdt: 21
+14:633  0:000    0. 6736A178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.amlnot written Success
+14:733  0:100  
+14:733  0:000        (Dsdt: 6736A200, Facs: 67B97F40)
+14:733  0:000        6736A200: 'DSDT', 'A M I', Rev: 2, Len: 104071
+14:735  0:001        67B97F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.amlnot written Success
+14:861  0:126  
+14:861  0:000    1. 67383998: 'APIC', 'A M I', Rev: 3, Len: 132
+14:861  0:000    2. 67383A20: 'FPDT', 'A M I', Rev: 1, Len: 68
+14:861  0:000    3. 67383A68: 'FIDT', 'A M I', Rev: 1, Len: 156
+14:861  0:000    4. 67383B08: 'SLIC', 'A M I', Rev: 1, Len: 374
+14:861  0:000    5. 67383C80: 'MCFG', 'A M I', Rev: 1, Len: 60
+14:861  0:000    6. 67383CC0: 'HPET', 'A M I', Rev: 1, Len: 56
+14:861  0:000    7. 67383CF8: 'SSDT', 'A M I', Rev: 1, Len: 789
+14:861  0:000    8. 67384010: 'SSDT', 'A M I', Rev: 1, Len: 4352
+14:861  0:000    9. 67385110: 'DBGP', 'A M I', Rev: 1, Len: 52
+14:861  0:000    10. 67385148: 'DBG2', 'A M I', Rev: 0, Len: 84
+14:861  0:000    11. 673851A0: 'MSDM', 'A M I', Rev: 3, Len: 85
+14:861  0:000    12. 673851F8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+14:861  0:000    13. 6738AAE0: 'UEFI', 'A M I', Rev: 1, Len: 66
+14:861  0:000    14. 6738AB28: 'SSDT', 'A M I', Rev: 2, Len: 3672
+14:861  0:000    15. 6738B980: 'SSDT', 'A M I', Rev: 2, Len: 159
+14:861  0:000    16. 6738BA20: 'DMAR', 'A M I', Rev: 1, Len: 168
+14:861  0:000    17. 6738BAC8: 'TPM2', 'A M I', Rev: 3, Len: 52
+14:861  0:000    18. 6738BB00: 'BGRT', 'A M I', Rev: 1, Len: 56
+14:861  0:000    19. 6738BB38: 'SSDT', 'A M I', Rev: 1, Len: 8984
+14:861  0:000    20. 6738DE50: 'ASF!', 'A M I', Rev: 32, Len: 165
+14:861  0:000  Found UEFI Acpi 1.0 RSDP at 6736A000
+14:861  0:000  Printing ACPI tables from RSDP 6736A000 ...
+14:861  0:000   6736A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+14:861  0:000    (Xsdt: 6736A0A8, Rsdt: 6736A028)
+14:861  0:000    6736A0A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+14:861  0:000    6736A028: 'RSDT', 'A M I', Rev: 1, Len: 120
+14:861  0:000    Tables in Xsdt: 21
+14:861  0:000    0. 67383888: 'FACP', 'A M I', Rev: 5, Len: 268
+14:861  0:000        (Dsdt: 6736A200, Facs: 67B97F80, XDsdt: 6736A200, XFacs: 0)
+14:861  0:000        6736A200: 'DSDT', 'A M I', Rev: 2, Len: 104071
+14:863  0:001        67B97F80: 'FACS', Ver: 2, Len: 64
+14:863  0:000    1. 67383998: 'APIC', 'A M I', Rev: 3, Len: 132
+14:863  0:000    2. 67383A20: 'FPDT', 'A M I', Rev: 1, Len: 68
+14:863  0:000    3. 67383A68: 'FIDT', 'A M I', Rev: 1, Len: 156
+14:863  0:000    4. 67383B08: 'SLIC', 'A M I', Rev: 1, Len: 374
+14:863  0:000    5. 67383C80: 'MCFG', 'A M I', Rev: 1, Len: 60
+14:863  0:000    6. 67383CC0: 'HPET', 'A M I', Rev: 1, Len: 56
+14:863  0:000    7. 67383CF8: 'SSDT', 'A M I', Rev: 1, Len: 789
+14:863  0:000    8. 67384010: 'SSDT', 'A M I', Rev: 1, Len: 4352
+14:863  0:000    9. 67385110: 'DBGP', 'A M I', Rev: 1, Len: 52
+14:863  0:000    10. 67385148: 'DBG2', 'A M I', Rev: 0, Len: 84
+14:863  0:000    11. 673851A0: 'MSDM', 'A M I', Rev: 3, Len: 85
+14:863  0:000    12. 673851F8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+14:863  0:000    13. 6738AAE0: 'UEFI', 'A M I', Rev: 1, Len: 66
+14:863  0:000    14. 6738AB28: 'SSDT', 'A M I', Rev: 2, Len: 3672
+14:863  0:000    15. 6738B980: 'SSDT', 'A M I', Rev: 2, Len: 159
+14:863  0:000    16. 6738BA20: 'DMAR', 'A M I', Rev: 1, Len: 168
+14:863  0:000    17. 6738BAC8: 'TPM2', 'A M I', Rev: 3, Len: 52
+14:863  0:000    18. 6738BB00: 'BGRT', 'A M I', Rev: 1, Len: 56
+14:863  0:000    19. 6738BB38: 'SSDT', 'A M I', Rev: 1, Len: 8984
+14:863  0:000    20. 6738DE50: 'ASF!', 'A M I', Rev: 32, Len: 165
+14:863  0:000    Tables in Rsdt: 21
+14:863  0:000    0. 6736A178: 'FACP', 'A M I', Rev: 2, Len: 132
+14:863  0:000        (Dsdt: 6736A200, Facs: 67B97F40)
+14:863  0:000        6736A200: 'DSDT', 'A M I', Rev: 2, Len: 104071
+14:865  0:001        67B97F40: 'FACS', Ver: 0, Len: 64
+14:865  0:000    1. 67383998: 'APIC', 'A M I', Rev: 3, Len: 132
+14:865  0:000    2. 67383A20: 'FPDT', 'A M I', Rev: 1, Len: 68
+14:865  0:000    3. 67383A68: 'FIDT', 'A M I', Rev: 1, Len: 156
+14:865  0:000    4. 67383B08: 'SLIC', 'A M I', Rev: 1, Len: 374
+14:865  0:000    5. 67383C80: 'MCFG', 'A M I', Rev: 1, Len: 60
+14:865  0:000    6. 67383CC0: 'HPET', 'A M I', Rev: 1, Len: 56
+14:865  0:000    7. 67383CF8: 'SSDT', 'A M I', Rev: 1, Len: 789
+14:865  0:000    8. 67384010: 'SSDT', 'A M I', Rev: 1, Len: 4352
+14:865  0:000    9. 67385110: 'DBGP', 'A M I', Rev: 1, Len: 52
+14:865  0:000    10. 67385148: 'DBG2', 'A M I', Rev: 0, Len: 84
+14:865  0:000    11. 673851A0: 'MSDM', 'A M I', Rev: 3, Len: 85
+14:865  0:000    12. 673851F8: 'SSDT', 'A M I', Rev: 2, Len: 22759
+14:865  0:000    13. 6738AAE0: 'UEFI', 'A M I', Rev: 1, Len: 66
+14:865  0:000    14. 6738AB28: 'SSDT', 'A M I', Rev: 2, Len: 3672
+14:865  0:000    15. 6738B980: 'SSDT', 'A M I', Rev: 2, Len: 159
+14:865  0:000    16. 6738BA20: 'DMAR', 'A M I', Rev: 1, Len: 168
+14:865  0:000    17. 6738BAC8: 'TPM2', 'A M I', Rev: 3, Len: 52
+14:865  0:000    18. 6738BB00: 'BGRT', 'A M I', Rev: 1, Len: 56
+14:865  0:000    19. 6738BB38: 'SSDT', 'A M I', Rev: 1, Len: 8984
+14:865  0:000    20. 6738DE50: 'ASF!', 'A M I', Rev: 32, Len: 165
