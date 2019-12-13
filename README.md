@@ -6,6 +6,6 @@
 - The wireless network adapter is Intel® Dual Band Wireless-AC 3165 which doesn't have macOS driver. I suggest to replace it by Broadcom® BCM94352Z.
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases) and [Lilu](https://github.com/acidanthera/Lilu/releases) were updated to the newest versions.
 - In order to drive the Intel® HD 530 graphics card，used the SSDT-PNLF.aml from [神舟Z6sl5-d1 10.14.1 EFI分享-远景论坛-微软极客社区](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1800126). And added "change GFX0 to IGPU" in config.plist.
-- Used image [【黑果小兵】macOS Catalina 10.15.1 19B88 正式版 with Clover 5098原版镜像[双EFI双平台版]](https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html#more) which can be booted normally, but sometimes it maybe stuck at the progress bar. Shut down the laptop by the power botton directly, then reboot after while, it will be normal.
+- Used image [【黑果小兵】macOS Catalina 10.15.2 19C57 正式版 with Clover 5100原版镜像[双EFI双平台版]](https://blog.daliansky.net/macOS-Catalina-10.15.2-19C57-Release-version-with-Clover-5100-original-image-Double-EFI-Version.html) which can be booted normally, but sometimes it maybe stuck at the progress bar. Shut down the laptop by the power botton directly, then reboot after while, it will be normal.
 - CLOVER theme used [clover-theme-minimal](https://github.com/al3xtjames/clover-theme-minimal).
 - CLOVER version can be updated at [clover-builder](https://github.com/Dids/clover-builder/releases).
