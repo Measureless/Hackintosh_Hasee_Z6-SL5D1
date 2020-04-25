@@ -354,7 +354,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>clover-theme-minimal</string>
+		<string>clover-theme-minimal-dark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
